@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 export const Head = () => (
   <>
     <title>404</title>
-    <meta name="description" content="404" />
+    <meta name="description" content="500" />
   </>
 )
 
@@ -21,7 +21,7 @@ const IndexPage = () => {
           />
         </figure>
         <h1 className="text-center uppercase text-white text-5xl lg:text-6xl font-bold  leading-none tracking-normal">
-          404 - Page
+          500 - Server Error
         </h1>
       </section>
     </Layout>

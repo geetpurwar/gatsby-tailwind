@@ -1,16 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
-
-export const Head = () => (
-  <>
-    <title>Hello World</title>
-    <meta name="description" content="Hello World" />
-  </>
-)
 
 // markup
-const IndexPage = () => {
+const ContactPage = () => {
   return (
     <Layout>
       <section className="bg-green-500 py-32 ">
@@ -19,11 +11,12 @@ const IndexPage = () => {
             className="mb-12 h-64 mx-auto"
             src="https://picsum.photos/400"
             alt=""
+            width="200"
+            height="200"
           />
-          <StaticImage src="https://placekitten.com/800/600" alt="A kitten" />
         </figure>
         <h1 className="text-center uppercase text-white text-5xl lg:text-6xl font-bold  leading-none tracking-normal">
-          Start Tailwind
+          About
         </h1>
         <div className="flex flex-row items-center justify-center py-4">
           <span className="h-1 w-24 bg-white rounded-full mx-2"></span>
@@ -44,4 +37,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default ContactPage
