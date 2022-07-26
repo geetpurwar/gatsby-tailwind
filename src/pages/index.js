@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
 
 export const Head = () => (
   <>
@@ -20,10 +19,9 @@ const IndexPage = () => {
             src="https://picsum.photos/400"
             alt=""
           />
-          <StaticImage src="https://placekitten.com/800/600" alt="A kitten" />
         </figure>
         <h1 className="text-center uppercase text-white text-5xl lg:text-6xl font-bold  leading-none tracking-normal">
-          Start Tailwind
+          Start GatsbyJS + Tailwind
         </h1>
         <div className="flex flex-row items-center justify-center py-4">
           <span className="h-1 w-24 bg-white rounded-full mx-2"></span>

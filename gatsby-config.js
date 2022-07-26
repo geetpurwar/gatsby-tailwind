@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/gatsby-tailwind',
   siteMetadata: {
     title: `My Gatsby Site`,
     siteUrl: `https://www.yourdomain.tld`,
