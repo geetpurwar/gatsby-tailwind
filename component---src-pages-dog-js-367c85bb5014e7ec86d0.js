@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[512],{1860:function(e,s,t){t.r(s);s.default=function(e){e.serverData.dogImage}}}]);
+//# sourceMappingURL=component---src-pages-dog-js-367c85bb5014e7ec86d0.js.map
